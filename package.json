@@ -4,7 +4,10 @@
   "private": true,
   "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transitive-bullshit/nextjs-notion-starter-kit.git"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=16"
@@ -72,5 +75,13 @@
     "cacheable-request": {
       "keyv": "npm:@keyvhq/core@~1.6.6"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit/issues"
+  },
+  "homepage": "https://github.com/transitive-bullshit/nextjs-notion-starter-kit#readme",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
   }
 }
