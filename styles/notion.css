@@ -18,7 +18,7 @@
 }
 
 .index-page {
-  --notion-max-width: 1000px;
+  --notion-max-width: 1050px;
 }
 
 .notion-text {
@@ -49,9 +49,9 @@
 }
 
 .notion-gallery-grid {
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 5vmin;
-  gap: 5vmin;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 3vmin;
+  gap: 3vmin;
 }
 
 .notion-gallery-grid .notion-page-icon-inline {
