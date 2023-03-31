@@ -18,7 +18,7 @@
 }
 
 .index-page {
-  --notion-max-width: 1200px;
+  --notion-max-width: 900px;
 }
 
 .notion-text {
@@ -45,7 +45,7 @@
 }
 
 .notion-nav-header-rhs {
-  gap: 0.5rem;
+  gap: 0.45rem;
 }
 
 .notion-gallery-grid {
